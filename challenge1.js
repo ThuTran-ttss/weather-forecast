@@ -14,6 +14,7 @@ let currentWeather = {
         sunsetTime : "06:04"
     }
 };
+
 console.log(currentWeather.temperature.highTemperature);
 console.log(currentWeather.temperature.lowTemperature);
 console.log(currentWeather.condition);
