@@ -30,6 +30,7 @@ let median = 0;
 if (highTemperatures.length%2 === 0) {median =( highTemperatures[midIndex-1] + highTemperatures[midIndex])/2;}
 else {median = highTemperatures[midIndex];}
 console.log(median);
+
 // 6. What is the median low temperature from the data set?
 lowTemperatures.sort((a,b) => a -b)
 let midIndexLow = parseInt(lowTemperatures.length/2);
