@@ -36,6 +36,7 @@ var weatherForecast = [
   }
  }
 ]
+
 // Log today's weather conditions to the console.
 console.log(weatherForecast[0].conditions);
 // Log Saturday's high temperature to the console.
